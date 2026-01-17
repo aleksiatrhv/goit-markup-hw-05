@@ -732,12 +732,16 @@ body {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    flex-shrink: 0;
     fill: transparent;
+    margin-right: 8px;
+    overflow: hidden;
 }
 
 .modal-form-checkbox-icon {
     width: 10px;
     height: 8px;
+    transform: scale(1.5);
 }
 
 .modal-form-checkbox-input:checked + .modal-form-checkbox-label .modal-form-checkbox-custom {
