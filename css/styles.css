@@ -732,8 +732,8 @@ body {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    flex-shrink: 0;
     fill: transparent;
+    flex-shrink: 0;
     margin-right: 8px;
     overflow: hidden;
 }
