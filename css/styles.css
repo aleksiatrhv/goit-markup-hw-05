@@ -733,8 +733,6 @@ body {
     align-items: center;
     justify-content: center;
     fill: transparent;
-    margin-right: 8px;
-    flex-shrink: 0;
 }
 
 .modal-form-checkbox-icon {
