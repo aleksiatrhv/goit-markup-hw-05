@@ -726,6 +726,7 @@ body {
 .modal-form-checkbox-custom {
     width: 16px;
     height: 16px;
+    display: inline-flexbox;
     align-items: center;
     justify-content: center;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -739,7 +740,8 @@ body {
 
 .modal-form-checkbox-icon {
     width: 16px;
-    height: 18px;
+    height: 16px;
+    display: inline-block;
 }
 
 .modal-form-checkbox-input:checked + .modal-form-checkbox-label .modal-form-checkbox-custom {
@@ -750,6 +752,8 @@ body {
 
 .modal-form-checkbox-link {
     color: #4d5ae5;
+    display: inline-block;
+    margin-left: 5px;
     text-decoration: underline;
 }
 
